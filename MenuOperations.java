@@ -76,8 +76,8 @@ public class MenuOperations
                 System.out.println("the multiplication of"+this.num1+"and"+this.num2+"is-"+this.getResult());
                 break;
             case 4 :                             
-                 System.out.println("the absolute value of "+this.num1+" is- "+Math.abs(this.num1));
-                 System.out.println("the absolute value of "+this.num2+" is- "+Math.abs(this.num2));
+                 System.out.println("the absolute value of "+this.num1+" is= "+Math.abs(this.num1));
+                 System.out.println("the absolute value of "+this.num2+" is= "+Math.abs(this.num2));
                  break;
             case 5 :
                  System.out.println("the greater value among "+ this.num1+
