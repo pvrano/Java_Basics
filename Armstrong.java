@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Armstrong {
     private int num;
     private int num4;
-     int s=0;int t;
+     int sum=0;int t;
     public void setnum(int num){
         this.num = num;
     }
@@ -42,11 +42,11 @@ public class Armstrong {
         this.setnum4(num);
        while(num>0){
          t = num%10;
-         s= s + t*3;
+         sum= sum + (t*t*t);
          num = num/10;
        }
        this.getnum4();
-        if(s == num4){
+        if(sum == num4){
             System.out.println("It is an armstrong number");
         }
         else{
