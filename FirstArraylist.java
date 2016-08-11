@@ -31,14 +31,14 @@ public class FirstArraylist {
         
     }
     public void getNamesInput(){
-        do{
+       // do{
          
         System.out.println("Enter names");
         
         in = new Scanner(System.in);
         String value = in.nextLine();
           name.add(value);
-        }while(!name.equals(name.add("stop")));
+        //}while(!name.equals(name.add("stop")));
     }
     public void printNames(){
         System.out.println("The names you entered are-");
