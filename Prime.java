@@ -26,7 +26,11 @@ public class Prime {
     }
     public void getPrime(){
         this.getInput();
-        
+        if(num==0)
+            System.out.println("number is neither prime or not prime");
+        else if(num==1)
+            System.out.println("number is not prime");
+        else
         for(int i =2; i<num; i++){
             //if remainder comes to be zero then not prime
             if(num%i==0){
